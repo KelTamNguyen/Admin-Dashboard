@@ -1,0 +1,1 @@
+This is an admin dashboard for a theoretical online service.
