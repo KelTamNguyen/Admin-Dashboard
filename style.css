@@ -85,11 +85,13 @@
     grid-column: 2 / 5;
     grid-row: 2 / 5;
     grid-template-columns: 3fr 1fr;
+    overflow: auto;
     padding: 10px;
 }
 
 .handle {
     cursor: pointer;
+    font-size: 0.8rem;
 }
 
 .handle:hover {
@@ -113,6 +115,7 @@
 
 .label {
     color: var(--color-secondary-text);
+    font-size: 0.75rem;
 }
 
 .nav {
@@ -149,10 +152,6 @@
     display: flex;
     flex-direction: column;
     padding: 1rem;
-}
-
-.project-description {
-    font-size: 1.25rem;
 }
 
 .project-grid {
@@ -221,7 +220,12 @@
 
 .text-content {
     color: var(--color-secondary-text);
+    font-size: 0.75rem;
     margin: 5px 0;
+}
+
+.project-description {
+    font-size: 1rem;
 }
 
 .trending-card, .announcement-card {
@@ -260,9 +264,9 @@ body {
     grid-template-columns: 1fr 4fr;
     grid-template-rows: auto 4fr;
     margin: 0;
+    max-height: 100vh;
     min-height: 100vh;
     padding: 0;
-    width: 100vw;
 }
 
 hr {
